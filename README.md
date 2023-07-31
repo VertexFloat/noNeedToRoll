@@ -53,7 +53,7 @@ Thanks to this simple modification you can decide whether you like to have to ro
 
 ## Getting started
 
-If you want to install latest official version, you can [download]() it like other mods.
+If you want to install latest official version, you can [download](https://www.farming-simulator.com/mod.php?&mod_id=271962&title=fs2022) it like other mods.
 <br/>
 
 ### Prerequisites
