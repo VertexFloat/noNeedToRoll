@@ -181,7 +181,7 @@ end
 
 FieldUtil.getRollerFactor = Utils.overwrittenFunction(FieldUtil.getRollerFactor, getRollerFactor)
 
-function buildSoilStateMapOverlay(self, superFunc, soilStateFilter)
+local function buildSoilStateMapOverlay(self, superFunc, soilStateFilter)
   soilStateFilter[MapOverlayGenerator.SOIL_STATE_INDEX.NEEDS_ROLLING] = soilStateFilter[MapOverlayGenerator.SOIL_STATE_INDEX.NEEDS_ROLLING] and g_currentMission.missionInfo.rollingRequiredEnabled
 
   superFunc(self, soilStateFilter)
@@ -189,7 +189,7 @@ end
 
 MapOverlayGenerator.buildSoilStateMapOverlay = Utils.overwrittenFunction(MapOverlayGenerator.buildSoilStateMapOverlay, buildSoilStateMapOverlay)
 
-function getDisplaySoilStates(self, superFunc)
+local function getDisplaySoilStates(self, superFunc)
   local displayValues = superFunc(self)
 
   displayValues[MapOverlayGenerator.SOIL_STATE_INDEX.NEEDS_ROLLING].isActive = g_currentMission.missionInfo.rollingRequiredEnabled
