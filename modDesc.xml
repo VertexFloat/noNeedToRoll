@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='utf-8' standalone='no'?>
-<modDesc descVersion='74'>
-	<author>VertexFloat</author>
-	<version>1.0.0.0</version>
-	<title>
-		<en>No Need To Roll</en>
-		<de>Keine Notwendigkeit Zu Rollen</de>
-		<fr>Pas Besoin De Rouler</fr>
-		<pl>Nie Trzeba Wałować</pl>
-	</title>
-	<description>
-		<en><![CDATA[Thanks to this simple modification you can decide whether you like to have to rolling fields periodically to keep yield high or not. On/off option is in game settings below periodic plowing option.
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="77">
+  <author>VertexFloat</author>
+  <version>1.0.0.0</version>
+  <title>
+    <en>No Need To Roll</en>
+    <de>Keine Notwendigkeit Zu Rollen</de>
+    <fr>Pas Besoin De Rouler</fr>
+    <pl>Nie Trzeba Wałować</pl>
+  </title>
+  <description>
+    <en><![CDATA[Thanks to this simple modification you can decide whether you like to have to rolling fields periodically to keep yield high or not. On/off option is in game settings below periodic plowing option.
 
-For more information, help, and report issues please visit <a href='https://github.com/4c65736975/noNeedToRoll'>GitHub</a>.]]></en>
-		<de><![CDATA[Dank dieser einfachen Modifikation können Sie entscheiden, ob Sie die Felder regelmäßig walzen müssen, um den Ertrag hoch zu halten, oder nicht. Die Ein-/Aus-Option befindet sich in den Spieleinstellungen unter der Option „Periodisches Pflügen“.
+For more information, help, and report issues please visit <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></en>
+    <de><![CDATA[Dank dieser einfachen Modifikation können Sie entscheiden, ob Sie die Felder regelmäßig walzen müssen, um den Ertrag hoch zu halten, oder nicht. Die Ein-/Aus-Option befindet sich in den Spieleinstellungen unter der Option „Periodisches Pflügen“.
 
-Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href='https://github.com/4c65736975/noNeedToRoll'>GitHub</a>.]]></de>
-		<fr><![CDATA[Grâce à cette simple modification, vous pouvez décider si vous souhaitez avoir des champs roulants périodiquement pour maintenir un rendement élevé ou non. L'option marche/arrêt se trouve dans les paramètres du jeu sous l'option de labour périodique.
+Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></de>
+    <fr><![CDATA[Grâce à cette simple modification, vous pouvez décider si vous souhaitez avoir des champs roulants périodiquement pour maintenir un rendement élevé ou non. L'option marche/arrêt se trouve dans les paramètres du jeu sous l'option de labour périodique.
 
-Pour plus d'informations, de l'aide et signaler des problèmes, veuillez visiter <a href='https://github.com/4c65736975/noNeedToRoll'>GitHub</a>.]]></fr>
-		<pl><![CDATA[Dzięki tej prostej modyfikacji możesz zdecydować, czy chcesz okresowo wałować pola, aby utrzymać wysokie plony, czy nie. Opcja włączania/wyłączania znajduje się w ustawieniach gry poniżej opcji okresowej orki.
+Pour plus d'informations, de l'aide et signaler des problèmes, veuillez visiter <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></fr>
+    <pl><![CDATA[Dzięki tej prostej modyfikacji możesz zdecydować, czy chcesz okresowo wałować pola, aby utrzymać wysokie plony, czy nie. Opcja włączania/wyłączania znajduje się w ustawieniach gry poniżej opcji okresowej orki.
 
-Po więcej informacji, pomoc lub zgłoszenie błędu, odwiedź stronę <a href='https://github.com/4c65736975/noNeedToRoll'>GitHub</a>.]]></pl>
-	</description>
-	<iconFilename>icon_noNeedToRoll.png</iconFilename>
-	<multiplayer supported='true'/>
+Po więcej informacji, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></pl>
+  </description>
+  <iconFilename>icon_noNeedToRoll.png</iconFilename>
+  <multiplayer supported="true"/>
 
-	<l10n>
-		<text name='setting_rollingRequired'>
-			<en>Periodic Rolling Required</en>
-			<de>Periodisches Rollen Erforderlich</de>
-			<fr>Roulement Périodique Requis</fr>
-			<pl>Wymagane Okresowe Wałowanie</pl>
-		</text>
-		<text name='toolTip_rollingRequired'>
-			<en>Whether or not you need to roll your fields periodically to keep yield high.</en>
-			<de>Ob Sie Ihre Felder regelmäßig walzen müssen, um den Ertrag hoch zu halten.</de>
-			<fr>Que vous ayez besoin ou non de rouler vos champs périodiquement pour maintenir un rendement élevé.</fr>
-			<pl>Czy potrzebne jest okresowe wałowanie pól, aby utrzymać maksymalne plony.</pl>
-		</text>
-	</l10n>
+  <l10n>
+    <text name="setting_rollingRequired">
+      <en>Periodic Rolling Required</en>
+      <de>Periodisches Rollen Erforderlich</de>
+      <fr>Roulement Périodique Requis</fr>
+      <pl>Wymagane Okresowe Wałowanie</pl>
+    </text>
+    <text name="toolTip_rollingRequired">
+      <en>Whether or not you need to roll your fields periodically to keep yield high.</en>
+      <de>Ob Sie Ihre Felder regelmäßig walzen müssen, um den Ertrag hoch zu halten.</de>
+      <fr>Que vous ayez besoin ou non de rouler vos champs périodiquement pour maintenir un rendement élevé.</fr>
+      <pl>Czy potrzebne jest okresowe wałowanie pól, aby utrzymać maksymalne plony.</pl>
+    </text>
+  </l10n>
 
-	<extraSourceFiles>
-		<sourceFile filename='src/NoNeedToRoll.lua'/>
-	</extraSourceFiles>
+  <extraSourceFiles>
+    <sourceFile filename="src/main.lua"/>
+  </extraSourceFiles>
 </modDesc>
