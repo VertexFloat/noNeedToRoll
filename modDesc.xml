@@ -11,16 +11,16 @@
   <description>
     <en><![CDATA[Thanks to this simple modification you can decide whether you like to have to rolling fields periodically to keep yield high or not. On/off option is in game settings below periodic plowing option.
 
-For more information, help, and report issues please visit <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></en>
+For more information, help, and report issues please visit <a href="https://github.com/VertexFloat/noNeedToRoll">GitHub</a>.]]></en>
     <de><![CDATA[Dank dieser einfachen Modifikation können Sie entscheiden, ob Sie die Felder regelmäßig walzen müssen, um den Ertrag hoch zu halten, oder nicht. Die Ein-/Aus-Option befindet sich in den Spieleinstellungen unter der Option „Periodisches Pflügen“.
 
-Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></de>
+Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href="https://github.com/VertexFloat/noNeedToRoll">GitHub</a>.]]></de>
     <fr><![CDATA[Grâce à cette simple modification, vous pouvez décider si vous souhaitez avoir des champs roulants périodiquement pour maintenir un rendement élevé ou non. L'option marche/arrêt se trouve dans les paramètres du jeu sous l'option de labour périodique.
 
-Pour plus d'informations, de l'aide et signaler des problèmes, veuillez visiter <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></fr>
+Pour plus d'informations, de l'aide et signaler des problèmes, veuillez visiter <a href="https://github.com/VertexFloat/noNeedToRoll">GitHub</a>.]]></fr>
     <pl><![CDATA[Dzięki tej prostej modyfikacji możesz zdecydować, czy chcesz okresowo wałować pola, aby utrzymać wysokie plony, czy nie. Opcja włączania/wyłączania znajduje się w ustawieniach gry poniżej opcji okresowej orki.
 
-Po więcej informacji, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/4c65736975/noNeedToRoll">GitHub</a>.]]></pl>
+Po więcej informacji, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/VertexFloat/noNeedToRoll">GitHub</a>.]]></pl>
   </description>
   <iconFilename>icon_noNeedToRoll.png</iconFilename>
   <multiplayer supported="true"/>
